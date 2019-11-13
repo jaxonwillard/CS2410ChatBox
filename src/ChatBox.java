@@ -45,6 +45,8 @@ public class ChatBox extends VBox {
             System.out.println(keyCode.getCode() + " " + keyCode);
             String message = textField.getText();
             messages.add(name + message);
+            textField.setText("");
+
         }
     }
 

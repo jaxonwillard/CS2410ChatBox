@@ -14,7 +14,7 @@ public class ChatBotClient extends Application {
         BufferedWriter wr;
         BufferedReader rd;
         Socket sck;
-        ChatBox cb = new ChatBox(stage);
+        ChatBox cb = new ChatBox();
         Scene scene = new Scene(cb);
         stage.setHeight(175);
         stage.show();

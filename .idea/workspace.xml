@@ -15,11 +15,16 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1TUAVKLZpt66FVM6Y7UytvtDzAF" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1572305449995" />
     <property name="extract.method.default.visibility" value="private" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../../CS2410/JavaFxKittens" />
+    <property name="settings.editor.selected.configurable" value="vcs.Git" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -33,7 +38,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Window">
+  <component name="RunManager" selected="Application.ChatBotClient">
     <configuration name="ChatBotClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ChatBotClient" />
       <module name="inClassServerClient" />
@@ -68,9 +73,9 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Window" />
         <item itemvalue="Application.ChatBotClient" />
         <item itemvalue="Application.ChatBotServer" />
+        <item itemvalue="Application.Window" />
       </list>
     </recent_temporary>
   </component>
@@ -86,5 +91,21 @@
       <updated>1572291580070</updated>
     </task>
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/inClassServerClient$ChatBotServer.ic" NAME="ChatBotServer Coverage Results" MODIFIED="1573610311410" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>week13.thu.*</FILTER>
+    </SUITE>
   </component>
 </project>
