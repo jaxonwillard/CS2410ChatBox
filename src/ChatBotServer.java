@@ -1,9 +1,6 @@
-
-
 import java.io.*;
 import java.net.ServerSocket;
 import java.net.Socket;
-import java.util.Scanner;
 
 public class ChatBotServer {
     public static void main(String[] args) throws Exception {
@@ -17,6 +14,7 @@ public class ChatBotServer {
         sck = sv.accept();
         rd = new BufferedReader(new InputStreamReader(sck.getInputStream()));
         wr = new BufferedWriter(new OutputStreamWriter(sck.getOutputStream()));
+        System.out.println("hello");
 
 //        while (true) {
 //            response = rd.readLine().trim();
@@ -25,11 +23,16 @@ public class ChatBotServer {
 //            wr.flush();
 //        }
         while (true) {
+            System.out.println("hi");
             try{
+                System.out.println("Tried");
                 socket = sv.accept();
+                System.out.println("again");
             } catch (IOException e){
+                System.out.println("caught");
                 e.printStackTrace();
             }
+            System.out.println("Debug in chatbotserver");
             new ClientThread(socket).start();
         }
 

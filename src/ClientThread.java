@@ -12,7 +12,7 @@ public class ClientThread extends Thread {
 
     public ClientThread(Socket clientSocket) throws IOException {
         this.socket = clientSocket;
-
+        System.out.println("DEBUG: 15 in ClientThread");
         rd = new BufferedReader(new InputStreamReader(sck.getInputStream()));
         wr = new BufferedWriter(new OutputStreamWriter(sck.getOutputStream()));
 
@@ -22,6 +22,7 @@ public class ClientThread extends Thread {
     public void run(){
         while (true){
             try {
+                System.out.println("DEBUG: ");
                 response = rd.readLine().trim();
                 wr.write(response + "\r\n");
                 wr.flush();

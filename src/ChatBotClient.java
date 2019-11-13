@@ -1,13 +1,13 @@
 
 
-import javafx.application.Application;
-import javafx.scene.Scene;
-import javafx.stage.Stage;
+        import javafx.application.Application;
+        import javafx.scene.Scene;
+        import javafx.stage.Stage;
 
-import java.io.*;
-import java.net.ServerSocket;
-import java.net.Socket;
-import java.util.Scanner;
+        import java.io.*;
+        import java.net.ServerSocket;
+        import java.net.Socket;
+        import java.util.Scanner;
 
 public class ChatBotClient extends Application {
     public void start(Stage stage) throws Exception {
@@ -21,7 +21,7 @@ public class ChatBotClient extends Application {
 
         stage.setScene(scene);
 
-        System.out.println("Waiting for Client connection: ");
+        System.out.println("Waiting for Server connection: ");
         sck = new Socket("localhost", 5555);
         rd = new BufferedReader(new InputStreamReader(sck.getInputStream()));
         wr = new BufferedWriter(new OutputStreamWriter(sck.getOutputStream()));
@@ -64,3 +64,4 @@ public class ChatBotClient extends Application {
 
 
 }
+
